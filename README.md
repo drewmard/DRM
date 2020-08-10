@@ -50,11 +50,11 @@ Example:
 ```
 (vQTL) [anm2868@cannes vqtl]$ head /athena/elementolab/scratch/anm2868/bmi_data.txt
 FID     IID     bmi
-1000013 1000013 -1.065152800531
-1000048 1000048 2.76930734592663
-1000055 1000055 0.293101015253496
-1000067 1000067 0.424138249409053
-1000072 1000072 1.27352707643111
+1001 9888 -1.065152800531
+1002 9889 2.76930734592663
+1003 9890 0.293101015253496
+1004 9891 0.424138249409053
+1005 9892 1.27352707643111
 ...
 ...
 ...
@@ -91,7 +91,7 @@ Rscript DRM.R $genotype $phenotype $phenoName $output $num_cores $startInd $endI
 
 ## Example
 
-The following analysis performs the DRM variance test on the first 100 SNPs found on chromosome 22 in UK Biobank. BMI is used as the phenotype and 4 cores are used for parallelization. 
+The following analysis performs the DRM variance test on the first 100 SNPs found on chromosome 22. BMI is used as the phenotype and 4 cores are used for parallelization. 
 
 ```
 CHR=22
