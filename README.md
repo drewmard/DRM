@@ -37,7 +37,7 @@ where the PLINK genotype files are:
 /path/to/files/plinkFiles.bed
 ```
 
-The fam file continues the individual IDs for mapping to the phenotype file in the second column.
+Within the second column, the fam file contains the individual IDs for mapping to the phenotype file.
 
 ### 2) phenotype
 
