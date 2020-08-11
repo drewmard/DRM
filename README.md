@@ -4,10 +4,15 @@
 
 This repository contains the computer code to implement the Deviation Regression Model (DRM) on PLINK genotype data in R. The DRM tests for an association between a SNP's genotype and the variance of a quantitative phenotype. These SNPs can be referred to as vQTLs. 
 
-If you have any questions, please contact:
+#### If you have any questions, please contact:
 
 Andrew Marderstein \
 anm2868@med.cornell.edu
+
+#### If you use the DRM in a publication, please cite:
+
+Marderstein, A.R., et al. Leveraging phenotypic variability to identify genetic interactions in human phenotypes. BioRxiv (2020).
+
 
 ## Dependencies
 
