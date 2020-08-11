@@ -103,12 +103,12 @@ phenoName=bmi
 output=/athena/elementolab/scratch/anm2868/bmi_results.vGWAS.txt
 num_cores=4
 
-Rscript /athena/elementolab/scratch/anm2868/Epistasis/scripts/DRM/DRM.R $genotype $phenotype $phenoName $output $num_cores $startInd $endInd
+Rscript DRM.R $genotype $phenotype $phenoName $output $num_cores $startInd $endInd
 ```
 
 While we suggest parallelizing the analysis around a subset of SNPs (e.g., 5,000 SNPs at a time), all SNPs within a genotype file can be ran by omitting the final two arguments:
 
 ```
-Rscript /athena/elementolab/scratch/anm2868/Epistasis/scripts/DRM/DRM.R $genotype $phenotype $phenoName $output $num_cores
+Rscript DRM.R $genotype $phenotype $phenoName $output $num_cores
 ```
 
