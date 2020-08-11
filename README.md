@@ -89,7 +89,7 @@ The analysis can be run by entering the following in the command-line:
 Rscript DRM.R $genotype $phenotype $phenoName $output $num_cores $startInd $endInd
 ```
 
-## Example
+### Example
 
 The following analysis performs the DRM variance test on the first 100 SNPs found on chromosome 22. BMI is used as the phenotype and 4 cores are used for parallelization. 
 
