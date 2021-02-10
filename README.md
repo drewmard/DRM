@@ -1,4 +1,4 @@
-# DRM
+# Deviation Regression Model (DRM)
 
 ## Information about the repository
 
