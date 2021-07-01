@@ -11,7 +11,7 @@ anm2868@med.cornell.edu
 
 #### If you use the DRM in a publication, please cite:
 
-Marderstein, A.R., et al. Leveraging phenotypic variability to identify genetic interactions in human phenotypes. BioRxiv (2020).
+Marderstein, A.R., Davenport, E.R., Van Hout, C.V., Kulm, S., Elemento, O.^, Clark, A.G.^ (2021). Leveraging phenotypic variability to identify genetic interactions in human phenotypes. American Journal of Human Genetics 108, 1-19. https://doi.org/10.1016/j.ajhg.2020.11.016
 
 
 ## Dependencies
